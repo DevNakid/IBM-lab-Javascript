@@ -40,3 +40,5 @@ switch(userType){
 let isAuthenticated = false;
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not Authenticated";
 console.log("Authentication Statue : ",authenticationStatus);
+const add = (a,b) => a+b;
+document.getElementById("result").innerHTML = add(5,3);
