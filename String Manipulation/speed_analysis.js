@@ -31,7 +31,6 @@ startTime = new Date().getTime();
             var typedWords = userTypedText.split(/\s+/).filter(function (word) {
                 return word !== "";
             }).length;
-            console.log(typedWords);
             var wpm = 0; // Default value
 
             if (timeElapsed !== 0 && !isNaN(typedWords)) {
